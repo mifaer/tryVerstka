@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.navigation {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center; 
+	
+	height: 50px;	
+	list-style: none;
+	margin: 0; 
+	background: deepskyblue;
+}
+.navigation li {
+	flex-grow: 1;
+}
+.navigation a {
+	text-decoration: none;
+ 	display: block;
+	padding: 1em; 
+	color: white;
+	align-self: stretch;
+	text-align: center;
+
+}
+.navigation li:hover {
+	background: grey;
+}
+
+.general {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-flow: row nowrap;
+}
+.firstBlock {
+	flex-grow: 1; 
+}
+.secondBlock {
+	flex-grow: 2;
+	border: 1px solid black;
+}
+
+.pageNavigation {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-flow: column nowrap;
+	justify-content: flex-end;
+	list-style: none;
+	height: 100%;
+}
+.pageNavigation a {
+	text-decoration: none;
+ 	display: block;
+	padding: 1em;
+	background: green; 
+	color: black;
+	align-self: stretch;
+	text-align: center;
+
+}
+.lol {
+	flex-grow: 1;
+	text-align: center;
+}
+.ololo {
+	
+}
+.pageNavigation a:hover {
+	background: darkgreen;
+	color: white;
+
+}
+
+.secondBlock > ul {
+	list-style: none;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-flow: row wrap;
+	align-items: center;
+}
+.secondBlock li {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	margin: 10px;
+	flex: 1;
+	align-self: center;
+	text-align: center;
+	line-height: 100px;
+}
+
+.info	{
+	margin: 10px;
+	border: 1px	dotted black;
+	border-radius: 10px;
+	height: 400px;
+	text-align: center;
+
+}
