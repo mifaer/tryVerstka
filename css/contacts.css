@@ -19,6 +19,9 @@
 	margin: 0; 
 	background: deepskyblue;
 }
+.location {
+	background: teal;
+}
 .navigation li {
 	flex-grow: 1;
 }
@@ -70,7 +73,8 @@ textarea {
 	height: 500px;
 }
 img {
+	margin: 10px;
 	width: 300px;
-	height: 250px;
+	height: auto;
 	align-self: flex-end;
 }

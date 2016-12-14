@@ -19,6 +19,9 @@
 	margin: 0; 
 	background: deepskyblue;
 }
+.location {
+	background: teal;
+}
 .navigation li {
 	flex-grow: 1;
 }

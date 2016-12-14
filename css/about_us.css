@@ -19,6 +19,9 @@
 	margin: 0; 
 	background: deepskyblue;
 }
+.location {
+	background: teal;
+}
 .navigation li {
 	flex-grow: 1;
 }
@@ -35,12 +38,7 @@
 	background: grey;
 }
 
-img {
-	width: 400px;
-	height: 100%;
-	margin: 5px;
-	border-radius: 5px;
-}
+
 .picture {
 	display: -webkit-box;
 	display: -moz-box;
@@ -52,13 +50,15 @@ img {
 	margin: 10px;
 	border: 1px dotted black;
 	border-radius: 10px;
+	width: auto;
 
 }
 .picture div {
-	width: 100%;
+	width: 60%;
 	margin: 5px;
 	border: 1px dotted black;
 	border-radius: 5px;
+	min-width: 150px;
 }
 
 .cat {
@@ -74,8 +74,15 @@ img {
 	border-radius: 10px;
 }
 .cat div {
-	width: 100%;
+	width: 60%;
 	margin: 5px;
 	border: 1px dotted black;
+	border-radius: 5px;
+	min-width: 150px;
+}
+img {
+	width: 40%;
+	height: 100%;
+	margin: 5px;
 	border-radius: 5px;
 }
